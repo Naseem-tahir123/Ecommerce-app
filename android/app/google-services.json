@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "458490123543",
+    "project_id": "daraz-clone-7b875",
+    "storage_bucket": "daraz-clone-7b875.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458490123543:android:3d054abb472ac13e779352",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA512YNkYhF3bfhKSuvahVSOqZkoaVJDm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
