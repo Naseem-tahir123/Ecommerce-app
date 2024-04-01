@@ -1,10 +1,10 @@
 import 'package:ecommerce_app/utils/app_constants.dart';
-import 'package:ecommerce_app/widgets/My_button.dart';
-import 'package:ecommerce_app/widgets/app_bar_widget.dart';
-import 'package:ecommerce_app/widgets/banner_widget.dart';
-import 'package:ecommerce_app/widgets/bottom_navigationBar_widget.dart';
-import 'package:ecommerce_app/widgets/categories_widget.dart';
-import 'package:ecommerce_app/widgets/heading_widget.dart';
+import 'package:ecommerce_app/views/widgets/My_button.dart';
+import 'package:ecommerce_app/views/widgets/app_bar_widget.dart';
+import 'package:ecommerce_app/views/widgets/banner_widget.dart';
+import 'package:ecommerce_app/views/widgets/bottom_navigationBar_widget.dart';
+import 'package:ecommerce_app/views/widgets/categories_widget.dart';
+import 'package:ecommerce_app/views/widgets/heading_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             headingSubtitle: "Inspired by your interest",
                             customButton: MyButton(
                               onTap: () {
-                                Get.to(() => const CategoriesScreen());
+                                Get.to(() => CategoriesScreen());
                               },
                               buttonText: "See more >",
                               borderColor: AppConstants.appScendoryColor,

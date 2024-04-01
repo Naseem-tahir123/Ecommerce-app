@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:image_card/image_card.dart';
 
-import '../models/product_model.dart';
+import '../../../models/product_model.dart';
 
 class AllProductsWidget extends StatelessWidget {
   const AllProductsWidget({super.key});
